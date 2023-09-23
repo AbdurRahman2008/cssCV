@@ -1,0 +1,114 @@
+img {             
+  border-radius: 45%
+}
+
+body {background-color: rgb(199, 190, 190);}
+   h2, p, li {
+    color: rgb(11, 8, 8)
+  }
+
+   h1 {
+    color: white
+   }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+
+    /* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+<h2 style="background-color:powderblue;"> Education: </h2>
+
+    <table>
+        <style>
+            table, th, td {
+              border: 1px solid rgb(247, 243, 243);
+            }
+            </style>
+
+            /* Add hover effect to the link */
+a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+
+
+
+
+
+  @keyframes textAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animated-text {
+    font-size: 24px;
+    color: #333;
+    animation: textAnimation 2s; /* Specify the duration you want */
+}
+
+
+.animated-text.final-state {
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.purple-text {
+  color: rgb(128, 84, 181);
+}
+
+
+
+.golden-text {
+  color: rgb(216, 191, 26);
+}
+
+
+
+
+
+
+
+            
+    
